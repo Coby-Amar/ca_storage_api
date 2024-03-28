@@ -1,0 +1,28 @@
+{
+  "name": "ca_storage_api",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "type": "module",
+  "nodemonConfig": {
+    "exec": "node ./src",
+    "watch": [
+      "src/*"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "lowdb": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  }
+}
